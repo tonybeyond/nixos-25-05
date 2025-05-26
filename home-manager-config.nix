@@ -34,7 +34,7 @@
           la = "eza -a --icons --group-directories-first";
           l = "eza -F --icons --group-directories-first";
         };
-        initExtra = ''
+        initContent = ''
           # Add user-installed cargo binaries to PATH
           export PATH="$HOME/.cargo/bin:$PATH"
           # Ghostty resources line removed
