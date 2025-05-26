@@ -5,7 +5,6 @@
     ./hardware-configuration.nix
     ./modules/desktop-setup.nix
     ./modules/home-manager-config.nix
-    <home-manager/nixos>
   ];
 
   # Boot loader
@@ -35,13 +34,13 @@
   # Enable the complete desktop setup
   desktop-setup = {
     enable = true;
-    user = "nixy";  # Replace with your username
+    user = "nixy"; # Replace with your username
   };
 
   # Enable Home Manager configuration
   home-manager-setup = {
     enable = true;
-    user = "nixy";  # Replace with your username
+    user = "nixy"; # Replace with your username
   };
 
   # Home Manager settings
@@ -50,7 +49,7 @@
     useUserPackages = true;
   };
 
-  # Enable unfree packages (for Brave, etc.)
+  # Enable unfree packages (for Brave, Microsoft Edge, etc.)
   nixpkgs.config.allowUnfree = true;
 
   # Enable experimental features
@@ -64,5 +63,5 @@
   };
 
   # System state version
-  system.stateVersion = "25.05";
+  system.stateVersion = "25.05"; # Adjusted to match home-manager potentially
 }
