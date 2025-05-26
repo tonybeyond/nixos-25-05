@@ -54,7 +54,8 @@
     # Fonts
     fonts.packages = with pkgs; [
       jetbrains-mono
-      (nerd-fonts.override { fonts = [ "JetBrainsMono" ]; }) # More specific Nerd Font install
+      # Install the specific Nerd Font package you want
+      jetbrains-mono-nerd-font  # Correct - installs JetBrains Mono Nerd Font
       noto-fonts
       noto-fonts-cjk
       noto-fonts-emoji
