@@ -78,6 +78,10 @@
       unzip
       zip
 
+      # zsh plugins
+      zsh-syntax-highlighting
+      zsh-autosuggestions
+
       # Development tools
       gcc
       gnumake
