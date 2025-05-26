@@ -106,7 +106,6 @@
       # Browsers
       brave
       chromium # Added from former Flatpak list
-      microsoft-edge # Added from former Flatpak list (unfree)
 
       # AppImage support
       appimage-run
@@ -123,16 +122,11 @@
       unrar
 
       # Applications previously installed via Flatpak script
-      vscode # Or vscodium if preferred
-      standardnotes
+      vscode # Or vscodium 
       rnote
       vlc
       zed-editor
-      obfuscate
       rustdesk
-      foliate
-      # Flatseal, Cohesion, zen_browser, Musicpod do not have direct/obvious Nixpkgs equivalents or might be user preference.
-      # User should search for alternatives if these are still needed.
     ];
 
     # Enable AppImage support
