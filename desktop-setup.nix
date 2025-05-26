@@ -101,7 +101,7 @@
       gnomeExtensions.user-themes
       gnomeExtensions.workspace-indicator
       gnomeExtensions.dash-to-panel
-      gnomeExtensions.extension-manager # Kept Nixpkgs version, Flatpak version removed
+      gnome-extension-manager
 
       # Browsers
       brave
