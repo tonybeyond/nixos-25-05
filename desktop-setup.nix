@@ -84,8 +84,6 @@
       python3
       nodejs # Consider specific versions if needed, e.g., nodejs-18_x
       # npm # Usually comes with nodejs, or can be specified if a different version is needed
-      cargo
-      rustc
 
       # Media and codecs
       ntfs3g
