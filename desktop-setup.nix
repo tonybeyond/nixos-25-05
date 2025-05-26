@@ -96,7 +96,7 @@
       eza # eza is installed here, script removed from home-manager
 
       # GNOME extensions and tools
-      gnome.gnome-tweaks
+      gnome-tweaks
       gnomeExtensions.pop-shell
       gnomeExtensions.user-themes
       gnomeExtensions.workspace-indicator
