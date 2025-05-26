@@ -5,6 +5,7 @@
     ./hardware-configuration.nix
     ./modules/desktop-setup.nix
     ./modules/home-manager-config.nix
+    <home-manager/nixos>             # <--- Add this line to import the Home Manager NixOS module
   ];
 
   # Boot loader
